@@ -1,6 +1,7 @@
 name: Tweet Image
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "*/2 * * * *" # Runs Bot every 30 minutes
 
