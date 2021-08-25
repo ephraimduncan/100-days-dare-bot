@@ -1,0 +1,13 @@
+{
+  "name": "dare-bot",
+  "private": "true",
+  "version": "0.0.0-beta",
+  "description": "Twitter bot for #100DaysDare",
+  "main": "index.js",
+  "repository": "https://github.com/dephraiim/100-days-dare-bot",
+  "author": "Ephraim Atta-Duncan",
+  "license": "MIT",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
