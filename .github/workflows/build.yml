@@ -17,7 +17,7 @@ jobs:
       - name: Run Bot
         uses: dephraiim/twitter-bot-action@v1.2.1
         env:
-          BOT_CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
-          BOT_CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
-          BOT_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BOT_ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
+          BOT_CONSUMER_KEY: ${{ secrets.BOT_CONSUMER_KEY }}
+          BOT_CONSUMER_SECRET: ${{ secrets.BOT_CONSUMER_SECRET }}
+          BOT_ACCESS_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+          BOT_ACCESS_TOKEN_SECRET: ${{ secrets.BOT_ACCESS_TOKEN_SECRET }}
